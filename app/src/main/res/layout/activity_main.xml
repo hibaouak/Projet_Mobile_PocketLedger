@@ -5,22 +5,32 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="24dp"
-    android:background="#173B68">
+    android:background="@drawable/bg_login_header">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
         android:text="PocketLedger"
-        android:textColor="#FFFFFF"
-        android:textSize="38sp"
-        android:textStyle="bold" />
+        android:textColor="#FFF8EE"
+        android:textSize="42sp" />
+
+    <View
+        android:layout_width="48dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:background="#D8B6A4"
+        android:importantForAccessibility="no" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:letterSpacing="0.05"
         android:text="Mon budget personnel"
-        android:textColor="#D9E8FA"
+        android:textColor="#F1DAD2"
         android:textSize="16sp" />
 
 </LinearLayout>
